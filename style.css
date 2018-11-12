@@ -14,10 +14,11 @@ body {
 }
 .list {
     position: relative;
-    left: 40%;
-    right: 40%;
+    left: 50%;
+    right: 50%;
     text-align: justify;
     list-style-type: none;
+    cursor: pointer;
 }
 #input {
     display:inline-block;
@@ -42,6 +43,9 @@ body {
 #button:hover {
     background-color: black;
     color: white;
+}
+.task:hover {
+    color: gray;
 }
 #input,
 #button {
