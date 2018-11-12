@@ -10,7 +10,7 @@ body {
     left: 30%;
     width: 40%;
     padding-bottom: 1rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
 }
 .list {
     position: relative;
