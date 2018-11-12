@@ -6,11 +6,17 @@ body {
 .title {
     font-family: 'KoHo', sans-serif;
     text-align: center;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
 }
 .list {
     position: relative;
     left: 38%;
     text-align: justify;
+    list-style-type: none;
 }
 #input {
     display:inline-block;
