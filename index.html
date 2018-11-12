@@ -4,16 +4,16 @@
     <title>TODO List</title>
     <link href='./style.css' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=KoHo|Roboto" rel="stylesheet">
-  </head>
+    <script src="./index.js"></script>
 </head>
 <body>
     <div id="todo">
         <h1 class="title">TODO LIST - Stage 1</h1>
-        <div id="input"><input type="text" placeholder="Create new Task..."></div>
-        <div id="button">Add new Task</div>
+        <div id="input"><input type="text" id="item" placeholder="Create new Task..."></div>
+        <button onclick="addTask()" id="button">Add new Task</button>
 
         <h2 id="incomplete-task"class="title">Todo</h2>
-        <ul class="list">
+        <ul id="ul" class="list">
          <li><input type="checkbox" value="">Create a Vue Project on Stage 2</li>
          <li><input type="checkbox" value="">Deploy app to Heroku on Stage 3</li>      
         </ul>
