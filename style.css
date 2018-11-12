@@ -1,5 +1,5 @@
 body {
-    margin-top: 5%;
+    margin: 5% 5% 5% 5%;
     background-color: #e7e7e7;
     font-family: 'Roboto', sans-serif;
 }
@@ -7,21 +7,24 @@ body {
     font-family: 'KoHo', sans-serif;
     text-align: center;
     position: relative;
-    left: 30%;
-    width: 40%;
+    left: 40%;
+    right: 40%;
+    width: 25rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid gray;
 }
 .list {
     position: relative;
-    left: 38%;
+    left: 40%;
+    right: 40%;
     text-align: justify;
     list-style-type: none;
 }
 #input {
     display:inline-block;
     position: relative;
-    left: 38%;
+    left: 43%;
+    right: 43%;
     text-align: center;
 }
 #button {
@@ -33,8 +36,9 @@ body {
     display:inline-block;
     text-align:center;
     position: relative; 
-    margin-inline-start: 1em;
-    left: 38%;   
+    margin-inline-start: 5rem;
+    left: 40%;
+    right: 40%; 
 }
 #button:hover {
     background-color: black;
@@ -42,9 +46,9 @@ body {
 }
 #input,
 #button {
-    margin-top: 1%;
+    margin-top: 2rem;
 }
 .title,
 .list {
-    margin-top: 2%;
+    margin-top: 2rem;
 }
