@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TODO List</title>
+    <link href='./style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=KoHo|Roboto" rel="stylesheet">
+  </head>
 </head>
 <body>
     <div id="todo">
         <h1 class="title">TODO LIST - Stage 1</h1>
-        <input type="text" placeholder="Add new Task...">
+        <div id="input"><input type="text" placeholder="Create new Task..."></div>
+        <div id="button">Add new Task</div>
 
         <h3 id="incomplete-task"class="title">Todo</h4>
-        <ul>
+        <ul class="list">
          <li>Create a Vue Project on Stage 2</li>
          <li>Deploy app to Heroku on Stage 3</li>      
         </ul>
-        <h3 id="complete-task" class="title">Completed</h3>
-        <ul>
 
+        <h3 id="complete-task" class="title">Completed</h3>
+        <ul class="list">
+            <!-- Here goes the completed Tasks -->
         </ul>
     </div>
 </body>

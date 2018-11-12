@@ -1,0 +1,44 @@
+body {
+    margin-top: 5%;
+    background-color: #e7e7e7;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+.list {
+    position: relative;
+    left: 38%;
+    text-align: justify;
+}
+#input {
+    display:inline-block;
+    position: relative;
+    left: 38%;
+    text-align: center;
+}
+#button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display:inline-block;
+    text-align:center;
+    position: relative; 
+    margin-inline-start: 1em;
+    left: 38%;   
+}
+#button:hover {
+    background-color: black;
+    color: white;
+}
+#input,
+#button {
+    margin-top: 1%;
+}
+.title,
+.list {
+    margin-top: 2%;
+}
