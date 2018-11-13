@@ -1,4 +1,3 @@
-let idCounter = 0;
 //create new todo item
 function addTask() {
     let newUl = document.getElementById("incomplete-task");
@@ -13,7 +12,6 @@ function addTask() {
     newItem.appendChild(document.createTextNode(userInput.value));
     newItem.style.fontFamily = "Roboto";
     newItem.setAttribute("class", "task");
-    newItem.setAttribute("id", idCounter);
     //appends the new li do the document
     newUl.appendChild(newItem);
     //when the new li element is click strike trough text
@@ -30,5 +28,4 @@ function addTask() {
     });
     //clears newText box
     document.getElementById("newTask").value ="";
-    idCounter++; 
 }
