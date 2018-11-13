@@ -14,7 +14,7 @@ function addTask() {
     newItem.setAttribute("class", "task");
     //appends the new li do the document
     newUl.appendChild(newItem);
-    //when the new li element is click strike trough text
+    //when the new li element is clicked strike-trough text
     newItem.addEventListener("click", function completeTask() {
         //set the style changes for completed task
         document.getElementById(this.id).style.color = "gray";
@@ -28,4 +28,11 @@ function addTask() {
     });
     //clears newText box
     document.getElementById("newTask").value ="";
+}
+
+function formHandler(event) {
+        //prevents the form tag from refreshing the page  
+        event.preventDefault();
+        addTask();
+        return false;
 }

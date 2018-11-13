@@ -9,8 +9,13 @@
     <body>
         <div id="todo">
             <h1 class="title">TODO LIST - Stage 1</h1>
-            <div id="input"><input type="text" id="newTask" placeholder="Create new Task..."></div>
-            <button onclick="addTask()" id="button">Add new Task</button>
+
+            <form id="keyInput" onsubmit="return formHandler(event)">
+                <div id="input">
+                    <input type="text" id="newTask" placeholder="Create new Task...">
+                    <button onclick="addTask()" id="button">Add new Task</button>
+                </div>
+            </form>
 
             <h2 class="title">Todo</h2>
             <ul id="incomplete-task" class="list"></ul>
