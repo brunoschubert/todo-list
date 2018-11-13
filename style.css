@@ -14,6 +14,7 @@ body {
 }
 .list {
     position: relative;
+    font-size: 1.1rem;
     left: 40%;
     right: 40%;
     text-align: justify;
@@ -21,11 +22,10 @@ body {
     cursor: pointer;
 }
 #input {
-    display:inline-block;
     position: relative;
     left: 43%;
     right: 43%;
-    text-align: center;
+    text-align: justify;
 }
 #button {
     background-color: white;
@@ -33,12 +33,6 @@ body {
     padding: 2px 5px;
     border-radius: 5px;
     cursor: pointer;
-    display:inline-block;
-    text-align:center;
-    position: relative; 
-    margin-inline-start: 5rem;
-    left: 40%;
-    right: 40%; 
 }
 #button:hover {
     background-color: black;
@@ -49,14 +43,18 @@ body {
 }
 #input,
 #button {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .title,
 .list {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 @media screen and (max-width: 1000px) {
     body {
         float:left;
+    }
+    #input {
+        position: relative;
+        text-align: center;
     }
 }
